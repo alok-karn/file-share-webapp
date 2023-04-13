@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import FileUploader from "./components/FileUploader";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+    return (
+        <div className="App">
+            {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +18,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
-  );
+      </header> */}
+            <h1>File Sharing App 📁</h1>
+            <FileUploader />
+        </div>
+    );
 }
 
 export default App;
